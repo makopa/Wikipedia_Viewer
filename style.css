@@ -1,0 +1,68 @@
+html{
+    height: 100%;
+}
+body{
+
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url(http://www.userlogos.org/files/logos/mafi0z/wikipedia3.png);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 100%;
+}
+.wrap{
+    margin-bottom: -50px; 
+}
+.wrap:after {
+  content: "";
+  display: block;
+}
+footer, .wrap:after {
+    height: 50px; 
+}
+footer{
+    line-height: 50px;
+    background: #999;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#search-form{
+    margin: 10px auto;
+}
+
+.section{
+    background-color: #666;
+    color: #fff;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto 10px;
+    text-align:left;
+}
+/**-----Search Form-----**/
+input[type=text] {
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-128.png');
+    background-position: 5px 5px; 
+    background-repeat: no-repeat;
+    background-size: 40px;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 70%;
+}
